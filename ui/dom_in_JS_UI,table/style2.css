@@ -1,0 +1,28 @@
+body {
+  background: rgb(205, 199, 199);
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  column-gap: 60px;
+  row-gap: 50px;
+  width: 80%;
+  margin: 10% auto;
+  padding: 100px auto;
+  place-self: center;
+}
+
+.card {
+  text-align: center;
+  background: #060606;
+  color: white;
+  padding: 30px;
+  font-weight: 700;
+}
+
+img {
+  border-radius: 50%;
+  width: 50%;
+  box-shadow: px 4px white;
+}

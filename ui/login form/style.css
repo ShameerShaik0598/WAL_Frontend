@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(222, 194, 199);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 100px auto;
+  box-shadow: 2px 2px 15px 2px black;
+  width: 50%;
+  height: 500px;
+  border-radius: 15px;
+  
+}
+
+/* .test{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  margin: auto 10px;
+} */
+
+.login {
+  background-color: white;
+  /* display: inline-block; */
+  display: flex;
+  border-radius: 15px;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  text-align: center;
+  justify-items: center;
+  font-weight: bold;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.login h {
+  font-size: 40px;
+}
+
+form {
+  color: #a2a2af;
+  flex-direction: column;
+  padding: 0 30px;
+  align-items: center;
+  display: flex;
+}
+
+form p {
+  margin-bottom: 0px;
+  margin-top: 8px;
+
+  padding: 10px;
+}
+
+.info {
+  background-color: rgb(249, 56, 56);
+  border-radius: 15px;
+  border-bottom-left-radius: 0%;
+  border-top-left-radius: 0%;
+  display: flex;
+  flex-direction: column;
+  /* width: 150px; */
+  padding: 30px 30px;
+  color: white;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+p {
+  font-size: 15px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  background-color: #ddddde;
+  width: 250px;
+  border: white;
+}
+
+img {
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #ff274d;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  width: 150px;
+  align-items: center;
+}
